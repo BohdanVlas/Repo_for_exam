@@ -2,7 +2,7 @@ import exam_modules as mdl
 
 print("Вітаємо")
 while True:
-    sum = int(input("Введіть суму кредиту: "))
+    sum = int(input("Введіть суму всього кредиту: "))
     if sum < 0:
         raise(ValueError)
     month = int(input("Термін: "))
